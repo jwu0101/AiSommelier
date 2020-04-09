@@ -1,0 +1,128 @@
+body{
+   margin: 0%;
+   font-family: Arial, Microsoft JhengHei;
+}
+
+.header{
+	background-color: #393332;
+	overflow: auto;
+	margin:0%;
+   padding: 0%;
+   font-family:"Microsoft JhengHei","Arial";
+}
+.header div a span{
+	color:#E79550;
+   font-weight: bold;
+   font-size: 1vw;
+}
+.footer{
+    margin:0%;
+	 /* position: fixed;
+	 bottom: 0; */
+	 width: 100%;
+	 text-align: center;
+    vertical-align: middle;
+    font-size: .5vw;
+}
+.footer div{
+	overflow: auto;
+   font-size: 1vw;
+   font-family:"Microsoft JhengHei","Arial";
+}
+.footer div p{
+	padding: 0.5vw 0;
+}
+.footer .WarningSign{
+	background-color:#E79550;
+}
+.footer .copyright{
+   background-color:#393332;
+   color:#E79550;
+}
+
+.content{
+   background-image: url(../../imgs/common/webImg-19.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+   width: 100%;
+   height: 95vh;
+   background-size:100%;
+   font-family:"Microsoft JhengHei","Arial";
+}
+.content img{
+   position: absolute;
+    /* border: 1px red solid; */
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.content .title{
+  color:#A11E4A;
+   margin-left:20%;
+   margin-top:3%;
+   font-size: 1.5vw;
+}
+.content .text{
+  color:#393332;
+   margin-left:20%;
+   margin-top:2%;
+   line-height:15px;
+}
+.buttonGP{
+   font-family:"Microsoft JhengHei","Arial";
+}
+.buttonGP .button1{
+    margin-top:5vh;
+   margin-left:20%;
+   background-color:#A11E4A;
+   color:white;
+   width:8vw;
+   height:5vh;
+   font-size:.8vw;
+   font-family:"Microsoft JhengHei","Arial";
+}
+.buttonGP .button2{
+    margin-top:5vh;
+   margin-left:3vw;
+   background-color:#A11E4A;
+   color:white;
+   width:8vw;
+   height:5vh;
+   font-size:.8vw;
+    font-family:"Microsoft JhengHei","Arial";
+}
+
+
+/* RWD
+@media (max-width: 565px){
+   .showWine{
+		top:24vw;
+   }
+}
+@media (max-width: 650px) and (min-width: 566px){
+   .showWine{
+		top:19vw;
+   }
+}
+@media (max-width: 730px) and (min-width: 651px){
+   .showWine{
+   		top:18vw;
+   }
+}
+@media (max-width: 900px) and (min-width: 731px){
+   .showWine{
+   		top:17vw;
+   }
+}
+@media (max-width: 1100px) and (min-width: 901px){
+   .showWine{
+   		top:16vw;
+   }
+}
+@media (min-width: 1101px){
+   .showWine{
+   		top:15vw;
+   }
+} */

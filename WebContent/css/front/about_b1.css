@@ -1,0 +1,26 @@
+
+.body .bgImg{
+    background-size: 100%;
+    background-position: bottom;
+	background-repeat: no-repeat;
+}
+.body .bgImg21{
+	background-image: url(../../imgs/common/webImg-21.png);
+}
+
+.body {
+	background-color:#393332;
+	font-family: Arial, Microsoft JhengHei;
+}
+.body .content {
+	margin:auto;
+    width:100%;
+
+    background:url('imgs/common/webImg-21.png');
+    background-size: 1400px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+    }
+
+

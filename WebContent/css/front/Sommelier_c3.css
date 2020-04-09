@@ -1,0 +1,83 @@
+
+body{
+	background-color: #393332;
+	margin:0;
+	font-family: Arial, Microsoft JhengHei;
+}
+div a span{
+	color:#E79550;
+	font-weight: bold;
+}
+
+
+
+.body{
+	background-color: #393332;
+	overflow: auto;
+	margin: 0%;
+	padding: 0%;
+}
+
+/*Ai Sommelier's Questions */ 
+.body .welcome, .question1, .question2, .question3, .question4{
+	position: relative;
+	width: 70%;
+	margin:auto;
+	display:none;
+	font-size:14pt;
+	font-weight:bold;
+	letter-spacing:2px;
+	line-height:5vh;
+}
+
+.body .QuesWord{
+	position: absolute; 
+	top: 8vh; 
+	left: 17vw; 
+	color: #F9E7AA;
+}
+
+.body .QuesRadio{
+	position: absolute; 
+	top: 6.5vw; 
+	left: 17vw; 
+	color: #F9E7AA;
+	font-family: Arial, Microsoft JhengHei;
+	font-size:14pt;
+}
+
+.body .CartButtonSet{
+	background-color: #A11E4A;
+	color: white;
+	border-style:none;
+	border-radius: 4px;
+	font-family: Arial, Microsoft JhengHei;
+	font-size:10pt;
+	padding:5px;
+
+}
+
+.body .SommeButtonSet{
+	background-color: #A11E4A;
+	color: #F9E7AA;
+	border-radius: 5px;
+	border-style:none;
+	width: 85px;
+	height: 35px;
+	font-family: Arial, Microsoft JhengHei;
+	font-size:12pt;
+	font-weight:bold;
+}
+
+
+.body .wineImg{
+	height: 17%;
+	width: 50%;
+	margin-left: 25%;
+}
+
+.body div p{
+	text-align: center;
+}
+
+

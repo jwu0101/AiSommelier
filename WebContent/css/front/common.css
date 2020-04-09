@@ -1,0 +1,99 @@
+
+body{
+	margin:0;
+	font-family: Arial, Microsoft JhengHei;
+}
+
+/*========================= header =========================*/
+.header div a span{
+	color:#E79550;
+	font-weight: bold;
+}
+.header{
+	background-color: #393332;
+	overflow: auto;
+}
+.header .logo{
+	float:left;
+	width:300px;
+	margin:1vw 3vh;
+}
+.header .logo img{
+	width:100%;    
+	vertical-align: bottom;
+}
+.header .BLloginInfo{
+	float:right;
+	width:560px;
+	text-align:right;
+	margin: 5VW 2vw 0vw 0;
+}
+.header .ALloginInfo{
+	float:right;
+	width:560px;
+	text-align:right;
+	margin: 2VW 2vw 0vw 0;
+}
+
+.header .ALloginInfo div a{
+	font-size:12pt;
+	text-decoration: none;
+}
+.header .BLloginInfo div a{
+	font-size:12pt;
+	text-decoration: none;
+}
+.header .ALloginInfo .welcome{
+	font-size:10pt;
+	color:#E79550;
+	margin:0vh 2.5VW 1vh 0vw ;
+}
+.header .ALloginInfo .functionLink{
+	float:right;
+	width:560px;
+	text-align:right;
+	margin: 1.5Vh .3vw 0vh 0vw;
+}
+
+.cart{
+	width:30px;
+	vertical-align: bottom;
+}
+
+/*========================= banner =========================*/
+.banner{
+	background-color: #E79550;
+    height: 18px;
+}
+.banner img{
+	height: 100%;
+    margin-left: 4vw;
+    vertical-align: top;
+}
+
+/*========================= footer =========================*/
+.footer{
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+.footer div{
+	overflow: auto;
+	font-size: 10pt;
+}
+
+.footer .WarningSign{
+	background-color:#E79550;
+	letter-spacing: 6px;
+	padding:3px;
+}
+.footer .copyright{
+	background-color:#393332;
+	color: #E79550;
+	letter-spacing: 1px;
+}
+
+.positionFix {
+	position: fixed;
+	bottom: 0;
+}

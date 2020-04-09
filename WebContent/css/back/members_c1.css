@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	font-family: "Arial","Microsoft JhengHei";
+}
+
+.content{
+	margin-top:6vh
+}
+
+
+.banner {
+	background-color: #E79550;
+	width: 100%;
+	height: 2vh;
+}
+
+.sidebar {
+	background-color: #393332;
+	width: 8vw;
+	height: 85vh;
+	float: left;
+}
+
+.button1 {
+	width: 100%;
+	transition-duration: 0.4s;
+	background-color: #393332;
+	border: none;
+	color: #F9E7AA;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border: 0.2px solid #898989;
+	font-family: "Arial","Microsoft JhengHei";
+}
+
+.button1:hover {
+	background-color: #898989;
+	color: #F9E7AA;
+}
+
+.querytable {
+	overflow: auto;
+	width: 90vw;
+	height: 32vh;
+	
+}
+
+.querytable table {
+	width: 40vw;
+	height: 25vh;
+}
+
+.querytable td {
+	width: 20vw;
+}
+
+.adminName {
+	float: right;
+	font-size: 16px;
+	color: #E79550;
+}
+.showresult{
+	height:60vh;
+	overflow: auto;
+}
+
+.blocks span {
+	display:inline-block;
+	text-align: left;
+	line-height: 16px;
+	
+}
+a#detailbutton{
+	text-decoration:none;
+}
+a#detailbutton:hover{
+    text-decoration:underline;
+}
+.sp{
+	padding-top:1vh;
+	padding-bottom:1vh;
+}
+.sp span {
+	padding-left: 0vw;
+	line-height: 16px;
+	
+}
+.showrs{
+	overflow: auto;
+}
+.pinkbtn{
+	margin:5px;
+	font-size: 12pt;
+    cursor: pointer;
+    color: #fff;
+    background-color: #A11E4A;
+    border: 0;
+    padding: 5px 15px;
+    font-family: "微軟正黑體";
+    float:right;
+}
+.chgPage{
+	margin-bottom:10vh;
+	text-align: center;
+}
+.chgPage a{
+	text-decoration:none;
+}
+.chgPage a:hover{
+	text-decoration:underline;
+}
+.upANDdetail{
+	display: inline-block;
+	font-family: "Arial","Microsoft JhengHei";
+	float: left;
+	padding-top:6vh;
+	padding-left:10vw;
+	overflow: auto;
+	height:80vh;
+	width:50vw;
+	
+}
+.righttitle{
+	font-family: "Arial","Microsoft JhengHei";
+	overflow: auto;
+	float: right;
+	padding-top:6vh;
+	padding-right:2vw;
+	
+}
+.righttitle span{
+	font-size: 26pt;
+	white-space: nowrap;
+	border-bottom: 2px solid ;
+	border-image: -webkit-linear-gradient(right,#FFF,#393332) 30 10;
+   	border-image: -moz-linear-gradient(right,#FFF,#393332) 30 30;
+    border-image: linear-gradient(right,#FFF,#393332) 30 30; 
+	
+}
+
+
+	

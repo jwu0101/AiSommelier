@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.content .addContent{
+	margin: 4% 0;
+    float: left;
+    font-size: 12pt;
+    width: 75%;
+}
+
+.contentTable th{
+	width: 300px;
+	min-width: 100px;
+	text-align: right;
+	vertical-align: top;
+}
+.contentTable td{
+	width: 400px;
+	text-align: left;
+	vertical-align: top;
+}
+.footerButton{
+	text-align:right;
+}

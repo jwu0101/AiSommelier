@@ -1,0 +1,51 @@
+
+
+.body .bgImg{
+    background-size: 100%;
+    background-position: bottom;
+	background-repeat: no-repeat;
+}
+.body .bgImg16{
+	background-image: url(../../imgs/common/webImg-16.png);
+}
+.body .content{
+	height:60vh;
+	padding:2vh;
+	margin:auto;
+	width:25%;
+	font-family: Arial, Microsoft JhengHei;
+	
+}
+
+.body .content label{
+	width:100%;
+	font-size:11pt;
+	font-family: Arial, Microsoft JhengHei;	
+	letter-spacing:1px;
+	
+}
+
+.body .content a{
+    text-decoration: none;
+	/*margin-left:19vw;*/
+	/*margin-top:5px;*/
+	font-size:1vw;
+	font-family: Arial, Microsoft JhengHei;
+}
+
+.body .content .btn{
+	/*width:90px;
+	height:40px;*/
+	padding: 5px 40px;
+	border:none;
+	background-color:#A11E4A;
+	color:white;
+	font-size:12pt;
+	font-weight:bold;
+	/*margin-top:30px;*/
+	font-family: Arial, Microsoft JhengHei;
+}
+.body .content .star{
+	color:#A11E4A;
+	font-family: Arial, Microsoft JhengHei;
+}

@@ -1,0 +1,75 @@
+
+body{
+	margin:0;
+	font-family: Arial, Microsoft JhengHei;
+}
+
+/*========================= header =========================*/
+.header div a span{
+	color:#E79550;
+	font-weight: bold;
+}
+.header{
+	background-color: #393332;
+	overflow: auto;
+}
+.header .logo{
+	float:left;
+	width:250px;
+	margin-left:3vw;
+}
+.header .logo img{
+	width:100%;    
+	vertical-align: bottom;
+}
+.header .loginInfo{
+	float:right;
+	width:300px;
+	text-align:right;
+	margin-right:4vw;
+}
+.header .loginInfo div{
+	font-size:14pt;
+}
+.header .loginInfo .welcome{
+	color:#E79550;
+	margin: 21px 0 1vw;
+}
+.cart{
+	width:30px;
+	vertical-align: bottom;
+}
+
+/*========================= banner =========================*/
+.banner{
+	background-color: #E79550;
+    height: 18px;
+}
+.banner img{
+	height: 100%;
+    margin-left: 4vw;
+    vertical-align: top;
+}
+
+/*========================= footer =========================*/
+.footer{
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+.footer div{
+	overflow: auto;
+	font-size: 10pt;
+}
+
+.footer .WarningSign{
+	background-color:#E79550;
+}
+.footer .copyright{
+	background-color:#393332;
+}
+
+.positionFix {
+	position: fixed;
+	bottom: 0;
+}

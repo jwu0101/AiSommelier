@@ -1,0 +1,86 @@
+
+body{
+	margin:0;
+	background-color:#393332;
+	font-family: Arial, Microsoft JhengHei;
+	width: 100%;
+}
+
+.header .logo{
+	float:left;
+	margin:3vh 0 0 3vw;
+}
+.header .logo img{
+	width:42vh;
+}
+.header .loginInfo{
+	float:right;
+	margin:3vh 3vw 0 0;
+	font-family: Arial, Microsoft JhengHei;
+	color:#E79550;
+	font-weight: bold;
+}
+.header .loginInfo div{
+	font-size:12pt;
+	color:#E79550;
+	margin: 1vw 1vw 2vh 0;
+}
+.header .banner , .footer .footerTop{
+	width:100%;
+	height:1.5vh;
+	background-color:#E79550;
+	overflow:auto;
+}
+.body{
+	text-align:center;
+	width:100%;
+	min-width:1000px;
+	overflow:auto;
+	margin:0;
+}
+.body .nav{
+    float: left;
+    width: 12%;
+    margin-top: 20px;
+}
+.body .nav p a{
+    color: #F9E7AA;
+	text-decoration: none;
+    font-size: 12pt;
+}
+.body .bodyRight{
+	width:88%;
+	min-width:880px;
+	float:right;
+	background-color: #fff;
+	
+}
+.footer{
+	width: 100%;
+}
+.but{
+	width: 100%;
+	transition-duration: 0.2s;
+	background-color: #393332;
+	border:none;
+	color: #F9E7AA;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 17pt;
+	font-weight:bold;
+	font-family: "Arial","Microsoft JhengHei";
+	letter-spacing:3px;
+}
+
+.but:hover {
+	background-color: #898989;
+	color: #F9E7AA;
+}
+
+.positionFix {
+	position: fixed;
+	bottom: 0;
+}

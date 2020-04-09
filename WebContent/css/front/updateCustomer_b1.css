@@ -1,0 +1,46 @@
+.body .bgImg{
+    background-size: 100%;
+    background-position: bottom;
+	background-repeat: no-repeat;
+}
+.body .bgImg16{
+	background-image: url(../../imgs/common/webImg-16.png);
+}
+
+
+.body{
+
+	background-image:url('imgs/common/webImg-16.png');
+	background-size: 100%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.body .content{
+	height:70vh;
+	padding:2vh;
+	margin:auto;
+	margin-bottom:50px;
+	width:25%;
+	font-family: Arial, Microsoft JhengHei;
+
+}
+
+.body .content label{
+	font-size:11pt;	
+	font-family: Arial, Microsoft JhengHei;
+}
+
+
+.body .content .btn{
+	width:90px;
+	height:40px;
+	border:none;
+	background-color:#A11E4A;
+	color:white;
+	font-size:12pt;
+	font-weight:bold;
+	margin-top:30px;
+	font-family: Arial, Microsoft JhengHei;
+}
+
